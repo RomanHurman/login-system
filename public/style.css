@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.enter_login {
+    color: yellow;
+}
+
+.enter_login:hover {
+    color: dodgerblue;
+}
+
+a {
+    color: #fff;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#getcount {
+    color: greenyellow;
+    text-align: center;
+    font-size: 27px;
+}
+
+#getcount:hover {
+    color: red;
+}
+
+.login-name:hover {
+    color: #fff;
+}
+
+.greet:hover {
+    color: yellow;
+}
+
+input[type="submit"]:hover {
+    background: dodgerblue;
+    border-radius: 8px;
+}
+
+.account-new:hover {
+    color: yellow;
+}
+
+.header {
+    background: url('/image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 876px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-item {
+    width: 496px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.header-login {
+    background: #FFBC00;
+    min-height: 876px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+li {
+    color: red;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.header-board {
+    background: yellowgreen;
+    min-height: 876px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+}
+
+.header-register {
+    background: lightskyblue;
+    min-height: 876px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-register {
+    display: flex;
+    justify-content: center;
+}
+
+.registered {
+    display: flex;
+    align-items: flex-end;
+}
+
+.item-register {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 400px) {
+    .content-register {
+        display: flex;
+        flex-direction: column;
+    }
+}
