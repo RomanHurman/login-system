@@ -14,7 +14,7 @@
     <section class="header-login">
         <div class="content-login">
             <div class="login-item">
-                <h1 class="login-name">Login</h1>
+                <h1 class="login-name">Sing in</h1>
                 <form action="/users/login" method="POST">
                     <div>
                         <label for="email"> Please enter your email:</label>
@@ -23,6 +23,7 @@
                     <div>
                         <label for="">Please type a password:</label>
                         <input type="password" name="password" id="password" placeholder="Your password" required>
+                        <p>Forgot password?</p>
                     </div>
                     <div>
                         <input type="submit" value="Login">
@@ -46,6 +47,14 @@
             </div>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("p").click(function () {
+                alert("Think well!You have 3 attempts!");
+            });
+        });
+    </script>
 </body>
 
 </html>
