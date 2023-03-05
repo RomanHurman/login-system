@@ -1,1 +1,2 @@
 To view the project first you need to do the following: clone this repository then run it in cmd and enter the command - npm run dev and after that open the link http://localhost:4000/ in your browser. If there is no node_modules folder in the cloned project and the npm run dev command does not work you need to type - npm install. Thanks for your attention and enjoy. Peace!
+![registration](https://github.com/RomanHurman/login-system/blob/main/registration.gif)
